@@ -27,8 +27,12 @@ export const HeroSection = () => {
             Build with modern design patterns inspired by enterprise solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-3">
-              Get Started
+            <Button 
+              size="lg" 
+              className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-3"
+              onClick={() => window.location.href = '/unified-framework'}
+            >
+              View Dashboard
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 

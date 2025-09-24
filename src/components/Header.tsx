@@ -19,7 +19,8 @@ export const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Dashboard</a>
+            <a href="/" className="text-foreground hover:text-primary transition-colors">Home</a>
+            <a href="/unified-framework" className="text-foreground hover:text-primary transition-colors">Dashboard</a>
             <a href="#" className="text-foreground hover:text-primary transition-colors">Analytics</a>
             <a href="#" className="text-foreground hover:text-primary transition-colors">Reports</a>
             <a href="#" className="text-foreground hover:text-primary transition-colors">Settings</a>
@@ -49,7 +50,8 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border">
             <nav className="flex flex-col space-y-4">
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Dashboard</a>
+              <a href="/" className="text-foreground hover:text-primary transition-colors">Home</a>
+              <a href="/unified-framework" className="text-foreground hover:text-primary transition-colors">Dashboard</a>
               <a href="#" className="text-foreground hover:text-primary transition-colors">Analytics</a>
               <a href="#" className="text-foreground hover:text-primary transition-colors">Reports</a>
               <a href="#" className="text-foreground hover:text-primary transition-colors">Settings</a>
